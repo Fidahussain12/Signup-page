@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background:  url(pexels-sebastiaan-stam-1097456.jpg);
+    background-size: cover;
+    
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    color: white;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    color: black;
+    margin-top: 20px;
+}
+::placeholder{
+    color: white;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+
